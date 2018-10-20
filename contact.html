@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Contactenos</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/fstyle.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<ul class="nav">
+	    <li class="return">
+	      <a href="index.html"><button class="border"><i class="fa fa-times"></i></a></button>
+	    </li>
+	</ul>
+
+<div class="container">
+
+	<div class="row">
+		<h1>¡Contáctanos!</h1>
+	</div>
+
+	<div class="row">
+		<h4 style="text-align:center">Nos encantaría leer tu opinión.</h4>
+	</div>
+
+	<div class="row input-container">
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<form action="enviar.php" method="post">
+					<input type="text" name="nombre" id="Nombre" required />
+					<label>Nombre</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input">
+					<input type="text" name="correo" id="correo" required />
+					<label>Email</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input" style="float:right;">
+					<input type="text" name="telefono" id="telefono" required />
+					<label>Numero de telefono</label> 
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<textarea name="mensaje" id="desc" required></textarea>
+					<label>Mensaje</label>
+				</div>
+			</div>
+				<input type="submit" value="Enviar" id="boton">
+			</form>
+	</div>
+</div>
+
+
+<div id="social">
+  <ul>
+    <li class="facebook">
+      <a href="https://www.facebook.com/fiestamexicanahn/?__tn__=kCH-R&eid=ARCe4Uv7iMTu0MpjnZognZhiLBcPvsXGGkBl_zvR7XMhl4owDva472IS2bwrZTAKO4sfn68NV20rn377&hc_ref=ARQcbH6MmU2boEVc82DG1kKP4eDXaZuAsG5lP-tT-n00IpvDuZVR9TI71feCyeMByrs&__xts__[0]=68.ARD-v4zVx3J9qF5hAMANAEEPNsVebcWXVl3GFly5gKUooSI82zJ7icUhaB-1oBjVvHMJehUrwvIwOJPO11nuiXV3ZkBGbX_g8gT3S4kTutsADmeb9wpuoSGUnGgDR6fAWs9fjF8eKL9qb8QztdtAav-b7eUhS8EZC-OzRI9WcUvmcVF-l-ExAv0"><button class="border"><i class="fa fa-facebook"></i></a></button>
+    </li>
+
+    <li class="whatsapp">
+      <a href="https://api.whatsapp.com/send?phone=50498149583"><button class="border"><i class="fa fa-whatsapp"></i>
+      </a></button>
+    </li>
+
+    <li class="instagram">
+      <a href="https://www.instagram.com/fiestamexicanahn/?utm_source=ig_profile_share&igshid=cw429wecy7he"><button class="border"><i class="fa fa-instagram"></i></a></button>
+    </li>
+  </ul>
+</div>
+
+</body>
+</html>
+
